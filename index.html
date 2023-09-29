@@ -16,14 +16,17 @@
   <div class="conteiner-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <div> <a class="navbar-brand" href="#"></div>
-        <div class="padre d-flex me-auto">
+        <div> 
+          <a class="navbar-brand" href="#">
+            <i class="fa-brands fa-instagram"></i>Instagram
+          </a> 
+        </div>
+        <!-- <div class="padre d-flex me-auto">
           <div><i class="fa-brands fa-instagram"></i></div>
           <div class="ig"></i>Instagram</a></div>
-        </div>
+        </div> -->
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
-          data-bs-whatever="@getbootstrap">Create a new post</button>
+        
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -52,7 +55,9 @@
         <!-- finish modal-->
         <!--settings button-->
         <div class="btn-group">
-          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+          <button type="button" class="btn btn-success me-2 rounded" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          data-bs-whatever="@getbootstrap">Create a new post</button>
+          <button type="button" class="btn btn-secondary dropdown-toggle rounded" data-bs-toggle="dropdown"
             aria-expanded="false"><i class="fa-solid fa-gear" style="color: #ffffff;"></i>
           </button>
           <ul class="dropdown-menu dropdown-menu-lg-end">
