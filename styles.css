@@ -1,0 +1,42 @@
+
+.navbar-brand{
+    margin-right: 5px;
+    }
+    .ig{
+        margin:0 !important;
+    }
+    .justify-content-sm-center{
+        justify-content: center;
+    }
+    .button-menu{
+        width: 200px;
+        height: 20px;
+    }
+    .row{
+        display: flex;
+    }
+    .col-4{
+        width: 33%;
+        padding: 5px;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+    }
+    /*#pills-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        min-height: 100vh;
+    }
+    .card-text-b{
+        margin:0; 
+    }/*no se aplica*/
+    h5{
+        display: flex; /*no se aplica*/
+    }
+    
+    
+    
